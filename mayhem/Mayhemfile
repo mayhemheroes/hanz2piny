@@ -1,0 +1,9 @@
+project: hanz2piny
+target: hanz2piny
+
+cmds:
+  - cmd: /mayhem/hanz2piny --path @@
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/hanz2piny/testsuite
